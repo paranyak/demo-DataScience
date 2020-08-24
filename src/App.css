@@ -1,38 +1,86 @@
 .App {
+  background-color: black;
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+}
+
+.img-app{
+  width: 100%;
+  opacity: 0.5;
+}
+
+.header{
+  width: 50%;
+  min-width: 400px;
+  display: block;
+  margin: auto;
+  position: absolute;
+  top: 200px;
+  left: 25%;
+}
+
+.header-app{
+  -webkit-line-break: after-white-space;
+  white-space: pre-wrap;
+  line-height:31px;
+  font-size: 38px;
+  font-weight: 900;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.header-info{
+  margin-top: 100px;
+  -webkit-line-break: after-white-space;
+  white-space: pre-wrap;
+  font-size: 16px;
+  font-weight: 100;
+  width: 80%;
+}
+
+.header-app span{
+  color: deeppink;
+}
+
+.challenge{
+  width: 70%;
+  display: block;
+  margin: 0 auto 10px auto;
+  min-width: 400px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.simple-img{
+  width: 90%;
+  display: block;
+  margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.margin-top{
+  margin-top:150px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.small-img{
+  width: 20%;
+  float: left;
 }
 
-.App-link {
-  color: #61dafb;
+.small-img-right{
+  float: right;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.challenge-info{
+  width: 50%;
+  margin-top: 40px;
+  padding: 40px;
+  text-align: left;
+}
+
+.challenge-info-right{
+  text-align: right;
+  float: right;
+}
+
+.challenge-block{
+  clear: both;
 }
