@@ -11,6 +11,7 @@ function App() {
   return (
     <div className="App">
         <img src={logo} className="img-app"/>
+        <div className="main"></div>
         <div className="header">
             <h1 className="header-app">ARTIFICIAL INTELLIGENCE AND <span>MACHINE LEARNING</span> FOR WELL DATA PROCESSING AND LITHOFACIES PREDICTION</h1>
             <h2 className="header-info">The SoftServe Energy team created a tool to empower users to automate geophysical well log data processing and lithofacies prediction by using machine learning modeling and features engineering. Additionally, the prototype will evolve into a comprehensive solution that enables well correlation, and well-to-seismic tie with the ability to predict hydrocarbon location</h2>

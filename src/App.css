@@ -1,22 +1,21 @@
 .App {
-  background-color: black;
   font-family: 'Roboto', sans-serif;
   color: #ffffff;
 }
 
 .img-app{
   width: 100%;
-  opacity: 0.5;
+  position: absolute;
+  top:0;
+  left: 0;
+  z-index: -1;
 }
 
 .header{
   width: 50%;
   min-width: 400px;
   display: block;
-  margin: auto;
-  position: absolute;
-  top: 200px;
-  left: 25%;
+  margin: 200px auto 100px auto;
 }
 
 .header-app{
@@ -83,4 +82,15 @@
 
 .challenge-block{
   clear: both;
+}
+
+.main{
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: black;
+  z-index: -2;
 }
